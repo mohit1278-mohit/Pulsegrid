@@ -33,9 +33,14 @@ jobs:
         env:
           NEXT_PUBLIC_MAPBOX_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_TOKEN }}
         
+      # Ensure GitHub Pages doesn't ignore the _next folder
+      - name: Bypass Jekyll
+        run: touch out/.nojekyll
+
       # By Next.js output: 'export' config, the build artifacts are in 'out'
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: out
           branch: gh-pages
+          dotfiles: true
