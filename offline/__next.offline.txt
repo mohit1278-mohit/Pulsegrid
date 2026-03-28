@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[45121,["/pulsegrid/_next/static/chunks/59ea9c52dcc10ce1.js"],"default"]
 3:I[60512,["/pulsegrid/_next/static/chunks/59ea9c52dcc10ce1.js"],"default"]
-0:{"buildId":"hqhixTRIrrQzIXxZxSNy9","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"2QMV1hppJEFoa2nNXqj_d","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
