@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'PulseGrid Mobile',
+  title: 'PulseGrid',
   description: 'Find hospitals with available medical resources and emergency services',
   generator: 'v0.app',
   manifest: '/manifest.json',
