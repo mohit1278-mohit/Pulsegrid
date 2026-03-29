@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Find hospitals with available medical resources and emergency services',
   generator: 'v0.app',
   manifest: '/manifest.json',
-  applicationName: 'PulseGrid Mobile',
+  applicationName: 'PulseGrid',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
